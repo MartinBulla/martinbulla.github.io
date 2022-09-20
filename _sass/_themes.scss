@@ -2,6 +2,12 @@
  * Themes
  ******************************************************************************/
 
+ /*******************************************************************************
+ * Custom overrides:
+ * - Lighter divider color in dark theme (#9797a2)
+ * - These changes are retained across rebases
+ ******************************************************************************/
+
 @use "sass:color";
 
 :root {
@@ -86,7 +92,7 @@ html[data-theme="dark"] {
   --global-footer-text-color: #{$grey-color-dark};
   --global-footer-link-color: #{$black-color};
   --global-distill-app-color: #{$grey-color-light};
-  --global-divider-color: #424246;
+  --global-divider-color: #9797a2; // custom: lighter divider color
   --global-card-bg-color: #{$grey-900};
   --global-back-to-top-bg-color: rgba(
     #{color.channel($white-color, "red", $space: rgb)},
