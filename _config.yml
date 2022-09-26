@@ -12,12 +12,8 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-<<<<<<< HEAD
   Photos by Martin unless indicated otherwise.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
-=======
 keywords: biorhythms, chronobiology, macroecology, shorebirds  # add your own keywords or leave empty
->>>>>>> social media in navigation bar
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -101,7 +97,6 @@ osf_id: # your OSF ID
 pinterest_id: # your pinterest id
 publons_id: F-2946-2011 # your ID on Publons
 quora_username: # your Quora username
-uora_username: # your Quora username
 research_gate_profile: # your profile on ResearchGate
 scholar_userid: 569367360547434339 # your Google Scholar ID
 scopus_id: # your profile on Scopus
