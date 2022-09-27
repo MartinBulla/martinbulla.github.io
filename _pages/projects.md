@@ -4,8 +4,13 @@ title: projects
 permalink: /projects/
 description:
 nav: true
+<<<<<<< HEAD
 nav_order: 1 # custom: keep this value
 display_categories: [science, fun] # custom: keep this value
+=======
+nav_order: 1
+display_categories: [science, other fun]
+>>>>>>> Update projects.md
 horizontal: false
 ---
 
