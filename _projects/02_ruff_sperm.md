@@ -3,7 +3,7 @@ layout: page
 title: ruff sperm
 description: Describing ruff sperm motility and morphology and comparing these traits across morphs.
 img: assets/img/02_ruff_sperm.jpg
-importance: 2
+importance: 5
 category: science
 ---
 

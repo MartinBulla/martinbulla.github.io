@@ -3,7 +3,7 @@ layout: page
 title: Clocks of red knots
 description: Finding the period of red knot internal clock and how that manifests in social and natural environment.
 img: assets/img/red_knot.jpg
-importance: 3
+importance: 6
 category: science
 ---
 
