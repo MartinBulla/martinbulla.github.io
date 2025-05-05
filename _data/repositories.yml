@@ -2,8 +2,8 @@ github_users:
   - martinbulla
 
 github_repos:
-  - rebuttal_alam_2024
-  - shorebird_bipInc_con
+  - martinbulla/rebuttal_alam_2024
+  - martinbulla/shorebird_bipInc_con
   - martinbulla/avian_FID_covid
   - martinbulla/ruff_sperm_v2
   - martinbulla/Exchange_behaviour_incubating_SESA
