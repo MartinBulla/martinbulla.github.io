@@ -1,6 +1,6 @@
 ---
 layout: page
-title: shorebird incubation
+title: passerine song
 description: Global patterns & evolution of passerine song
 img: assets/img/3_song.jpg
 importance: 3
