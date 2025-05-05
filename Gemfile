@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+gem 'jekyll-sass-converter', '~> 2.2'
 group :jekyll_plugins do
     gem 'classifier-reborn'
     gem 'jekyll'
