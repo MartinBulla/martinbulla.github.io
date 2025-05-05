@@ -2,7 +2,7 @@
 layout: page
 title: passerine song
 description: Global patterns & evolution of passerine song
-img: assets/img/3_song.png
+img: assets/img/song.png
 importance: 3
 category: science
 ---
