@@ -21,8 +21,8 @@ As a **scientist**, I use birds, mainly shorebirds, to explore
 -  <a href='https://www.nature.com/articles/nature20563'>within- and between-species differences in rhythmicities</a> and what may drive such differences, as well as
 - <a href='https://onlinelibrary.wiley.com/doi/full/10.1111/ele.13662'>distribution and evolution of traits across the globe</a>
 
-**Currently**, I am investigating global differences in uniparental incubation of shorebirds, sperm trait differences in three genetically distinct morphs in the ruff, biorhythms of red knots and drivers of global variation in the song of songbirds.  
+**Currently**, I am investigating global similarities in shorebird parental care, global differences in uniparental incubation of shorebirds, biorhythms of red knots and drivers of global variation in the song of songbirds.  
 
-I am a **postdoc** at the [Max Planck Institute for Biological Intelligence](https://www.bi.mpg.de/en) and [Czech University of Life Sciences Prague](https://www.czu.cz/en) and **collaborate** with [scientists and institutions across the globe](https://doi.org/10.1126/science.aaw8529). 
+I am an **associate professor** at   [Czech University of Life Sciences Prague](https://www.czu.cz/en) and **collaborate** with [scientists and institutions across the globe](https://doi.org/10.1126/science.aaw8529). 
 
 I am a regular contributor to <a href='https://www.inaturalist.org/people/1583651'>iNaturalist</a>. 
