@@ -20,9 +20,9 @@ We believe that great science thrives in a collaborative, respectful, and studen
 ### how we work
 - **Non-violent communication**: Respectful, honest, and empathetic communication is the norm. We prioritize listening and understanding over hierarchy or ego.
 - **Flat structure & consensus**: We operate with a flat hierarchical structure where decisions are made collectively and unanimously. Everyone’s voice matters.
-- **Scientific rigor**: The quality and integrity of our science are paramount. We challenge ideas, not people.
-- **Student-oriented teaching & mentorship****: Our mentorship is fluid and personalized. We begin by asking students what they want to learn and adapt our guidance to best support their growth and interests.
-- **Open learning mindset**: We value curiosity, critical thinking, and a willingness to unlearn and relearn. Every challenge is an opportunity to grow, together.
+- **Scientific rigor**: The quality and integrity of our science are paramount. We challenge ideas, not people. 
+- **Student-oriented teaching & mentorship**: Our mentorship is fluid and personalized. We begin by asking students what they want to learn and adapt our guidance to best support their growth and interests.
+- **Learning mindset & transparency**: We value curiosity, critical thinking, and a willingness to unlearn and relearn. Every challenge is an opportunity to grow—together. We also strive to make our science open and reproducible, to facilitate progress and foster trust, and we are committed to reflecting on how science is practiced and how it can be improved.
 
 ### what you can expect of me
 - **Non-violent communication, honest & empathy**: I aim to provide honest feedback with empathy, always trying to strike the right balance between critique and encouragement. Your wellbeing matters more than any analysis, paper, report, or proposal.
