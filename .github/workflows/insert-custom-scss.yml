@@ -1,0 +1,31 @@
+name: Ensure @import "custom" in main.scss
+
+on:
+  push:
+    paths:
+      - '_sass/_main.scss'
+  workflow_dispatch:
+
+jobs:
+  inject-custom:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Ensure @import "custom" is present
+        run: |
+          FILE="_sass/_main.scss"
+          LINE='@import "custom";'
+
+          # Add the line if it's missing
+          if ! grep -Fxq "$LINE" "$FILE"; then
+            echo "$LINE" >> "$FILE"
+            git config --global user.name "github-actions[bot]"
+            git config --global user.email "github-actions[bot]@users.noreply.github.com"
+            git add "$FILE"
+            git commit -m "Ensure @import \"custom\" in main.scss"
+            git push
+          else
+            echo "Line already present. No changes made."
+          fi
