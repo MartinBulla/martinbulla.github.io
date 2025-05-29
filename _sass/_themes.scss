@@ -2,7 +2,7 @@
  * Themes
  ******************************************************************************/
 
- /*******************************************************************************
+/*******************************************************************************
  * Custom overrides:
  * - Lighter divider color in dark theme (#9797a2)
  * - These changes are retained across rebases
@@ -24,14 +24,15 @@
   --global-distill-app-color: #{$grey-color};
   --global-divider-color: rgba(0, 0, 0, 0.1);
   --global-card-bg-color: #{$white-color};
-  --global-social-icon-color: #b2b7bd;// custom: used in .navbar .social icons
+  --global-social-icon-color: #b2b7bd; // custom: used in .navbar .social icons
   --global-highlight-color: #{$red-color-dark};
-  --global-back-to-top-bg-color: rgba(
-    #{color.channel($black-color, "red", $space: rgb)},
-    #{color.channel($black-color, "green", $space: rgb)},
-    #{color.channel($black-color, "blue", $space: rgb)},
-    0.4
-  );
+  --global-back-to-top-bg-color: rgba(0, 0, 0, 0.4); // my version does not support the use of `sass:color` functions `color.channel` so the original below was replace 
+    //rgba(
+    //#{color.channel($black-color, "red", $space: rgb)},
+    //#{color.channel($black-color, "green", //$space: rgb)},
+    //#{color.channel($black-color, "blue", //$space: rgb)},
+    //0.4
+  //);
   --global-back-to-top-text-color: #{$white-color};
   --global-newsletter-bg-color: #{$white-color};
   --global-newsletter-text-color: #{$black-color};
@@ -95,13 +96,14 @@ html[data-theme="dark"] {
   --global-distill-app-color: #{$grey-color-light};
   --global-divider-color: #9797a2; // custom: lighter divider color
   --global-card-bg-color: #{$grey-900};
-  --global-social-icon-color: #b2b7bd;// custom: used in .navbar .social icons
-  --global-back-to-top-bg-color: rgba(
-    #{color.channel($white-color, "red", $space: rgb)},
-    #{color.channel($white-color, "green", $space: rgb)},
-    #{color.channel($white-color, "blue", $space: rgb)},
-    0.5
-  );
+  --global-social-icon-color: #b2b7bd; // custom: used in .navbar .social icons
+  --global-back-to-top-bg-color: rgba(255, 255, 255, 0.5); // my version does not support the use of `sass:color` functions `color.channel` so the original below was replace 
+    //rgba(
+    //#{color.channel($white-color, "red", $space: rgb)},
+    //#{color.channel($white-color, "green", $space: rgb)},
+    //#{color.channel($white-color, "blue", $space: rgb)},
+    //0.5
+  //);
   --global-back-to-top-text-color: #{$black-color};
   --global-newsletter-bg-color: #{$grey-color-light};
   --global-newsletter-text-color: #{$grey-color-dark};

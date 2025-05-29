@@ -1,14 +1,12 @@
 github_users:
-  - torvalds
-  - alshedivat
-
-repo_description_lines_max: 2
+  - martinbulla
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - martinbulla/rebuttal_alam_2024
+  - martinbulla/shorebird_bipInc_con
+  - martinbulla/avian_FID_covid
+  - martinbulla/ruff_sperm_v2
+  - martinbulla/Exchange_behaviour_incubating_SESA
+  - martinbulla/RWLE_predation_timing
+  - martinbulla/Still_no_evidence
+  - martinbulla/many_analysts

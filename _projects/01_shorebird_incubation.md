@@ -1,7 +1,7 @@
 ---
 layout: page
 title: shorebird incubation
-description: Comparing incubation rhythms across shorebirds.
+description: Comparing incubation rhythms and other incubation related traits.
 img: assets/img/sesa_inc.jpg
 importance: 1
 category: science
@@ -13,13 +13,13 @@ First, we collected data on biparentally incubating shorebirds and showed unexpe
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/sh_inc_01-map.png" title="map" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/sh_inc_01-map.png" title="map" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/sh_inc_02-patterns.png" title="patterns" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/sh_inc_02-patterns.png" title="patterns" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-3 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/sh_inc_03-phylo.png" title="phylo" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/sh_inc_03-phylo.png" title="phylo" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -30,7 +30,7 @@ Second, we are further exploring the data on biparental shorebirds to reveal bet
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/sh_inc_04-cor.png" title="cor" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/sh_inc_04-cor.png" title="cor" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -41,7 +41,7 @@ Second, we are further exploring the data on biparental shorebirds to reveal bet
 Third, we are collecting data on uniparentally incubating shorebirds to reveal the variability of uniparental incubation rhythms and explore how such rhythms are constrained.
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/sh_inc_05-map.png" title="map" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/sh_inc_05-map.png" title="map" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

@@ -16,10 +16,12 @@ group :jekyll_plugins do
     gem 'jekyll-scholar'
     gem 'jekyll-sitemap'
     gem 'jekyll-tabs'
+    gem 'jekyll-terser'
     gem 'jekyll-toc'
     gem 'jekyll-twitter-plugin'
     gem 'jemoji'
     gem 'mini_racer'
+    gem 'observer'
     gem 'unicode_utils'
     gem 'webrick'
 end
@@ -28,3 +30,5 @@ group :other_plugins do
     gem 'feedjira'
     gem 'httparty'
 end
+
+gem "jekyll-archives-v2", "~> 0.0.6"

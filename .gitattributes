@@ -1,0 +1,23 @@
+_bibliography/papers.bib merge=ours
+_data/repositories.yml merge=ours
+_data/cv.yml merge=ours
+_pages/about.md merge=ours
+_pages/cv.md merge=ours
+_pages/publications.md merge=ours
+_projects/1_project.md merge=ours
+_projects/2_project.md merge=ours
+_projects/3_project.md merge=ours
+_projects/4_project.md merge=ours
+_projects/5_project.md merge=ours
+_projects/6_project.md merge=ours
+_projects/7_project.md merge=ours
+_projects/8_project.md merge=ours
+_projects/9_project.md merge=ours
+README.md merge=ours
+
+*.html whitespace=fix
+*.liquid whitespace=fix
+*.md  whitespace=fix
+*.scss whitespace=fix
+*.yml whitespace=fix
+

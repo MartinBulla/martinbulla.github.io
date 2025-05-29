@@ -3,7 +3,7 @@ name: Ensure @import "custom" in main.scss
 on:
   push:
     paths:
-      - '_sass/_main.scss'
+      - "_sass/_main.scss"
   workflow_dispatch:
 
 jobs:

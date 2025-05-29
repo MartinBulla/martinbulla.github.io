@@ -1,0 +1,65 @@
+name: Sync upstream files for backup
+
+on:
+  schedule:
+    - cron: "0 4 * * 0" # Every Sunday at 04:00 UTC
+  workflow_dispatch:
+
+jobs:
+  sync-upstream:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout your repo
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Set up Git config
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+      - name: Add upstream remote
+        run: |
+          git remote add upstream https://github.com/alshedivat/al-folio.git
+          git fetch upstream
+
+      - name: Copy upstream about.md
+        run: |
+          mkdir -p _pages
+          if git show upstream/master:_pages/about.md > _pages/about_einstein.md; then
+            echo "✅ _pages/about.md saved as about_einstein.md"
+          else
+            echo "⚠️ upstream _pages/about.md not found."
+          fi
+
+      - name: Copy upstream README.md
+        run: |
+          mkdir -p _upstream
+          if git show upstream/master:README.md > _upstream/README_upstream.md; then
+            echo "✅ README.md saved as _upstream/README_upstream.md"
+          else
+            echo "⚠️ upstream README.md not found."
+          fi
+
+      - name: Copy example project files
+        run: |
+          mkdir -p _projects/upstream
+          for f in 1_project.md 2_project.md 3_project.md 4_project.md 5_project.md 6_project.md 7_project.md 8_project.md 9_project.md; do
+            if git show upstream/master:_projects/$f > _projects/upstream/$f; then
+              echo "✅ $f saved to _projects/upstream/"
+            else
+              echo "⚠️ _projects/$f not found in upstream"
+            fi
+          done
+
+      - name: Commit if changes
+        run: |
+          git add _pages/about_einstein.md _upstream/README_upstream.md _projects/upstream/*.md || true
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: update upstream backup files"
+            git push
+          fi
