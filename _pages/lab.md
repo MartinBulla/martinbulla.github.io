@@ -3,7 +3,7 @@ layout: page
 permalink: /bullab/
 title: bullab
 description: It is amazing what you can accomplish if you do not care who gets the credit. - Harry Truman
-nav: true
+nav:
 nav_order:
 ---
 
